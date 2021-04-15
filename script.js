@@ -13,7 +13,8 @@ function start(){
      $("#menu a.active").removeClass("active");
      $(this).addClass("active");
      
-     $("#content").load("about.html");
+     var href = $(this).attr("href");
+     $("#content").load(href);
  
  }
  
