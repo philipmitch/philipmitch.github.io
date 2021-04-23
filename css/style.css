@@ -87,6 +87,12 @@ h1, h2, h3, h4, strong{
     align-items: center;    
 }
 
+@media (max-width: 768px) {
+    .landing h1 {
+          font-size: 28px;
+          line-height: 36px;
+}}
+
 .landing .btn-link{
     background-color: var(--col-1);
     border: none;
