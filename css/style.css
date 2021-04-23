@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+--col-1: #149ddd;
+--col-1-on: #37b3ed;
+
+--col-2: #2f4e5e;
+--col-2-on: #fff;
+
+--col-a: #d73952;
+
+--font-dark: #000;
+--font-light: #fff;
+
+--font-a: 'roboto';
+--font-b: 'helvatica';
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.75rem;
+    display: block;
+}
+
+section{
+    padding: 60px 0;
+}
+
+.offset:before{
+    display: block;
+    content: "";
+    height: 6rem;
+}
+
+span{
+    color: var(--col-a);
+}
+
+i{
+    color: var(--col-a);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+h1, h2, h3, h4, strong{
+    color:var(--font-dark);
+    font-weight: 700;
+}
+
+/* NAVIGATION STYLING STARTS */
+.navbar{
+    letter-spacing: 0.1rem;
+    box-shadow:1px 1px 5px rgb(200, 200, 200);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+    font-size: 12px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--col-1);
+}
+/* NAVIGATION STYLING ENDS */
+
+ /* LANDING STYLING STARTS */
+
+.landing{
+   padding-top: 80px;
+   font-size: 24px;
+   font-weight: 500;
+}
+
+
+.landing h1{
+    font-size: 64px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;    
+}
+
+.landing .btn-link{
+    background-color: var(--col-1);
+    border: none;
+    color: #fff;  
+    width: 100px;
+    text-decoration: none;
+}
+
+.landing .btn:hover{
+    background-color: var(--col-1-on);
+}
+/*  LANDING STYLING ENDS */
+
+/*  ABOUT STYLING STARTS */
+/*  ABOUT STYLING ENDS */
+
+/*  SKILLS STYLING STARTS */
+.skills{
+    display: block;
+}
+
+.skills .content h3{
+    font-size: 14px;
+}
+
+.skills .content .progress-bar{
+    font-size: 10px;
+    background-color: var(--col-1);
+}
+/*  SKILLS STYLING ENDS */
+
+/*  PORTFOLIO STYLING STARTS */
+.portfolio{
+    font-size: 14px;
+}
+
+.portfolio h3{
+    color: var(--col-a);
+}
+
+.portfolio .btn{
+    color: var(--font-dark);
+    text-decoration: none;
+    font-size: 14px;
+}
+ .portfolio .btn:hover{
+    background-color:var(--col-1-on);
+ }
+ .portfolio .btn-link{
+    background-color: var(--col-1);
+    border: none;
+    color: #fff;  
+    width: 100px;
+    text-decoration: none;
+}
+/*  PORTFOLIO STYLING ENDS */
+
+/*  SERVICES STYLING STARTS */
+.services-list{
+padding-left: 1.5rem;
+line-height: 2rem;
+}
+
+.services .container h3{
+    color: var(--col-a);
+}
+.services .title{
+    font-size: 18px;
+}
+
+.services .cont .btn{
+    background-color: var(--col-1);
+    border: none;
+    color: #fff;  
+    width: 100px;
+    text-decoration: none;
+}
+
+.services .cont .btn:hover{
+    background-color: var(--col-1-on);
+}
+/*  SERVICES STYLING ENDS */
+
+/*  CONTACT STYLING STARTS */
+.contact{
+    padding-bottom: 5rem;
+}
+
+.form-control{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.contact .btn{  
+    background-color: var(--col-1);
+    border: none;
+    color: #fff;  
+    width: 100px;
+    text-decoration: none;
+}
+
+.contact .btn:hover{
+    background-color: var(--col-1-on);
+}
+/*  CONTACT STYLING ENDS */
+
+/*  FOOTER STYLING STARTS */
+.footer {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.footer h4{
+    color: var(--font-dark);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.footer .social .btn{
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.15rem;
+    text-decoration: none;
+    color: var(--font-dark);
+}
+
+.footer .social .btn-link:hover{
+    color: var(--col-1);
+}
+/*  FOOTER STYLING ENDS */
